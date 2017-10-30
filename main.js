@@ -23,8 +23,8 @@ function introduction() {
 
 function oneGame() {
   hasNotWon = true;
-  setNumber(rand(1, 100));
-  popup(`Harry: I'm thinking of a number between ${numberLow} and ${numberHigh}.`)
+  setNumber(rand(1, 10));
+  popup(`Harry: I'm thinking of a number between 1 and 10.`)
   while (hasNotWon) {
     attemptToRemember()
     guess()
